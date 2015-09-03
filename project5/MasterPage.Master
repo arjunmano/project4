@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="project5.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Product Catalogue</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="ddsmoothmenu.css" />
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js">
+
+    /***********************************************
+    * Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+    * This notice MUST stay intact for legal use
+    * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+    ***********************************************/
+
+</script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div id="tooplate_wrapper">
+	
+    <div id="tooplate_header">
+        <div id="site_title"><h1><a></a></h1>
+        </div>
+        <div id="tooplate_menu" class="ddsmoothmenu">
+           <asp:Menu ID="Menu1" runat="server" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+           <Items>
+           <asp:MenuItem NavigateUrl="~/addproduct.aspx" Text="ADD PRODUCT"></asp:MenuItem>
+              <asp:MenuItem NavigateUrl="~/addpackage.aspx" Text="ADD PACKAGE"></asp:MenuItem>
+                 <asp:MenuItem NavigateUrl="~/filter.aspx" Text="ADD FILTER"></asp:MenuItem>
+                 <asp:MenuItem NavigateUrl="~/bundletype.aspx" Text="BUNDLE TYPE"></asp:MenuItem>
+                 <asp:MenuItem NavigateUrl="~/discount.aspx" Text="DISCOUNT"></asp:MenuItem>
+                 <asp:MenuItem NavigateUrl="~/packagebundle.aspx" Text="PACKAGE BUNDLE"></asp:MenuItem>
+                 <asp:MenuItem NavigateUrl="~/bundleproduct.aspx" Text="BUNDLE PRODUCTS"></asp:MenuItem>
+                 <asp:MenuItem NavigateUrl="~/packageproduct.aspx" Text="PACKAGE PRODUCTS"></asp:MenuItem>
+           </Items>
+           </asp:Menu>
+            <br style="clear: left" />
+        </div> <!-- end of tooplate_menu -->
+    </div> <!-- END of tooplate_header -->   
+      
+	</div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
