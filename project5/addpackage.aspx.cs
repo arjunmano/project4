@@ -14,8 +14,8 @@ namespace project5
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            wrkno = Request.Cookies["workno"].Value;
-            
+            //   wrkno = Request.Cookies["workno"].Value;
+            wrkno = "a"; 
         }
 
         protected void btnsubmit_Click(object sender, EventArgs e)

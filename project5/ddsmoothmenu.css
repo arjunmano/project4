@@ -5,7 +5,7 @@
 .ddsmoothmenu ul{
 	z-index:100;
 	margin: 0;
-	padding: 0 0 0 0px;
+	padding: 0 0 0 30px;
 	list-style-type: none;
 }
 
@@ -14,18 +14,17 @@
 	position: relative;
 	display: inline;
 	float: left;
-	
 }
 
 /*Top level menu link items style*/
 .ddsmoothmenu ul li a {
 	display: block;
 	height: 42px;
-	padding: 0 15px 0 5px;
+	padding: 0 30px 0 20px;
 	line-height: 42px;
 	font-size: 14px;
 	color: #bbb3ac;	
-	text-align: auto;
+	text-align: center;
 	text-decoration: none;
 	font-weight: 400;
 	outline: none;
@@ -36,7 +35,7 @@ display: inline-block;
 }
 
 .ddsmoothmenu ul li a.selected, .ddsmoothmenu ul li a:hover { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
-	color: #0ad6e7;////////////////////////////////////
+	color: #0ad6e7;
 }
 
 /*1st sub level menu*/

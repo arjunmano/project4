@@ -13,7 +13,8 @@ body {
 	background-color: #f1f1f1;
 	background-repeat: repeat-x;
 	background-position: top;
-	background-image: url(images/tooplate_body.jpg)
+	background-image: url(images/tooplate_body.jpg);
+	background-size:90px 90px;
 }
 
 a, a:link, a:visited { color: #09c2d3; font-weight: normal; text-decoration: none }
@@ -54,20 +55,20 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 .tmo_list li a:hover { color: #52493a }
 
 #tooplate_wrapper {
-	width: 960px;
+	width: 1120px;
 	margin: 0 auto;
-	padding: 0 10px;
+	padding: 0 0px;
 }
 
 #tooplate_header {
 	height: 55px;
-	width: 960px;
+	width: 1100px;
 }
 
 #tooplate_main {
 	clear: both;
 	width: 960px;
-	padding: 20px 0;
+	padding: 00px 0;
 }
 
 #content {
@@ -105,11 +106,10 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 
 #site_title { float: left }
 #site_title h1 { margin: 0; padding: 0 }
-#site_title h1 a { display: block; width: 100%; height: 10px; padding: 0px 0px 0 0; color: #000; font-size: 14px; text-align: right;  }
+#site_title h1 a { display: block; width: 200%; height: 25px; padding: 40px 10px 10px 10px; color: #000; font-size: 14px; text-align: left; background: url(images/logo.jpg) no-repeat left }
 #site_title h1 a:hover { text-decoration: none }
 
-#tooplate_menu { float: left; width: 100%; height: 46px; }
-
+#tooplate_menu { float: right; width: 900px; height: 46px; background: url(images/tooplate_menu.png) no-repeat }
 
 .newscol h2 { font-size: 14px; color: #09c2d3; font-weight: 700; border-bottom: 1px dotted #ccc }
 .newsbox { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #eee }

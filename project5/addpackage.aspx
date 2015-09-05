@@ -3,11 +3,15 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <br /><br />
+    <br /><br />
  <link rel="stylesheet" type="text/css" href="style.css" media="all" />
  <div class="container">
  <div class="freshdesignweb-top">
 <div  class="form">
-<form id="contactform"> 
+    
+
+<form id="contactform" action="POST"> 
 <br /><br />
 <div style="font-size:xx-large;text-align:center">
 
@@ -66,5 +70,8 @@
 
 <asp:Button class="buttom" ID="btnsubmit" Text="SUBMIT"  
     tabindex="5"  runat="server" onclick="btnsubmit_Click" />
-
+    </form>
+    </div>
+     </div>
+     </div>
 </asp:Content>
