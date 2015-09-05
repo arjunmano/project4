@@ -16,10 +16,10 @@
 <asp:Label ID="lbl" runat="server" Text="ADD PRODUCT"></asp:Label>
 </div>
 <br /><br />
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold;font-size:17px">
 
   <br /><br />
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold;font-size:17px">
 <asp:Label ID="lblname" Text="Product Name" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtname"  runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
@@ -27,21 +27,21 @@
 <br /><br />
 
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold;font-size:17px">
 <asp:Label ID="lblprtype" Text="Product Type" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtprtype" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
     ErrorMessage="*" style="color:Red" ControlToValidate="txtprtype"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold;font-size:17px">
 <asp:Label ID="lblprtypevalue" Text="Product Type Value" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtprtypevalue" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
     ErrorMessage="*" style="color:Red" ControlToValidate="txtprtypevalue"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold;font-size:17px">
 <asp:Label ID="lblfather" Text="Grandfathered" runat="server"></asp:Label>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" 
     ControlToValidate="rblist" ErrorMessage="*" style="color:Red"></asp:RequiredFieldValidator></p>
@@ -54,14 +54,14 @@
       
 
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold;font-size:17px">
 <asp:Label ID="lblenddate" Text="End Date" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtenddate" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" 
     ErrorMessage="*" style="color:Red" ControlToValidate="txtenddate"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold;font-size:17px">
 <asp:Label ID="lbldesc" Text="Product Type Value" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtdesc" runat="server" ></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" 
@@ -70,7 +70,7 @@
 
 
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold;font-size:17px">
 <asp:Label ID="lblcost" Text="Cost" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtcost" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RegularExpressionValidator6" runat="server" 

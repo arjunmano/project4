@@ -19,50 +19,51 @@
 </div>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black">
-<asp:Label ID="lblname" Text="Package Name" runat="server"></asp:Label><br /></p>
+<p class="contact" style="font-weight:bold;font-size:17px">
+<asp:Label ID="lblname" Text="Package Name" runat="server"></asp:Label><br /><br /></p>
 <asp:TextBox ID="txtname"  runat="server" ></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
      ControlToValidate="txtname" ErrorMessage="*" style="color:Red"></asp:RequiredFieldValidator>
 <br /><br />
 
 
-<p class="contact" style="font-weight:bold;color:black">
-<asp:Label ID="lblcatid" Text="Category ID" runat="server"></asp:Label><br /></p>
+<p class="contact" style="font-weight:bold;font-size:17px">
+<asp:Label ID="lblcatid" Text="Category ID" runat="server"></asp:Label><br /><br /></p>
 <asp:TextBox ID="txtcatid" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
      ControlToValidate="txtcatid" ErrorMessage="*" style="color:Red"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black">
+<p class="contact" style="font-weight:bold;font-size:17px">
 <asp:Label ID="lblgrand" Text="Grandfathered" runat="server"></asp:Label>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" 
-    ControlToValidate="rblist" ErrorMessage="*" style="color:Red"></asp:RequiredFieldValidator></p>
+    ControlToValidate="rblist" ErrorMessage="*" style="color:Red"></asp:RequiredFieldValidator>
 <br />
 <asp:RadioButtonList ID="rblist" runat="server">
             <asp:ListItem Text="Yes" Value="y"></asp:ListItem>
              <asp:ListItem Text="No" Value="n"></asp:ListItem>
              </asp:RadioButtonList>
+    </p>
 <br /><br />
       
 
 
-<p class="contact" style="font-weight:bold;color:black">
-<asp:Label ID="lblpktype" Text="Package Type" runat="server"></asp:Label><br /></p>
+<p class="contact" style="font-weight:bold;font-size:17px">
+<asp:Label ID="lblpktype" Text="Package Type" runat="server"></asp:Label><br /><br /></p>
 <asp:TextBox ID="txtpktype" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
     ControlToValidate="txtpktype" ErrorMessage="*" style="color:Red"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black">
-<asp:Label ID="lbldesc" Text="Description" runat="server"></asp:Label><br /></p>
+<p class="contact" style="font-weight:bold;font-size:17px">
+<asp:Label ID="lbldesc" Text="Description" runat="server"></asp:Label><br /><br /></p>
 <asp:TextBox ID="txtdesc" runat="server" Width="155" Height="35" TextMode="MultiLine"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" 
      ControlToValidate="txtdesc" ErrorMessage="*" style="color:Red"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black">
-<asp:Label ID="lbldropdate" Text="Drop Date" runat="server"></asp:Label><br /></p>
+<p class="contact" style="font-weight:bold;font-size:17px">
+<asp:Label ID="lbldropdate" Text="Drop Date" runat="server"></asp:Label><br /><br /></p>
 <asp:TextBox ID="txtdropdate" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" 
     ControlToValidate="txtdropdate" ErrorMessage="*" style="color:Red"></asp:RequiredFieldValidator>
@@ -74,4 +75,5 @@
     </div>
      </div>
      </div>
+    
 </asp:Content>

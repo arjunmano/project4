@@ -7,7 +7,7 @@ http://www.freshdesignweb.com/beautiful-registration-form-with-html5-and-css3.ht
     height: 514px;
 }
 .form fieldset{border:0px; padding:0px; margin:0px;}
-.form p.contact { font-size: 12px; margin:0px 0px 10px 0;line-height: 14px; font-family:Arial, Helvetica;}
+.form p.contact { font-size: 17px; margin:0px 0px 10px 0;line-height: 14px; font-family:Arial, Helvetica;}
 
 .form input[type="text"] { width: 400px; }
 .form input[type="email"] { width: 400px; }
