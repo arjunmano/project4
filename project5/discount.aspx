@@ -18,14 +18,14 @@
 </div>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lbldisid" Text="Discount ID" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtdisid" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
    ErrorMessage="*" style="color:Red" ControlToValidate="txtdisid"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblprtype" Text="Product Type" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtprtype" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
