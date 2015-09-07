@@ -18,21 +18,21 @@
 <asp:Label ID="lbl" runat="server" Text="ADD FILTER"></asp:Label>
 </div>
 <br /><br />
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblpkid" Text="Package Id" runat="server"></asp:Label><br /></p></p>
 <asp:TextBox ID="txtpkid" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" 
     ErrorMessage="*" style="color:Red" ControlToValidate="txtpkid"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblprid" Text="Product Id" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtprid" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" 
    ErrorMessage="*" style="color:Red" ControlToValidate="txtprid"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblfiltertype" Text="Filter Type" runat="server"></asp:Label>
    <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" 
     ControlToValidate="rblist" ErrorMessage="*" style="color:Red"></asp:RequiredFieldValidator></p>
@@ -44,7 +44,7 @@
 <br /><br />
       
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblfiltervalue" Text="Filter Value" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtfiltervalue"  runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" 
@@ -54,7 +54,7 @@
 <br /><br />
 
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblenddate" Text="End Date" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtenddate" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" 
@@ -63,14 +63,14 @@
 
 
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblactive" Text="Is Active" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtactive" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" 
   ErrorMessage="*" style="color:Red" ControlToValidate="txtactive"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
     <br /></p>
 
 
