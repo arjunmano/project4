@@ -18,7 +18,7 @@
 <asp:Label ID="lbl" runat="server" Text="BUNDLE TYPE"></asp:Label>
 </div>
 <br /><br />
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblbndtype" Text="Bundle Type" runat="server"></asp:Label><br /></p>
 
 <asp:TextBox ID="txtbndtype" runat="server"></asp:TextBox>
@@ -26,20 +26,20 @@
     ErrorMessage="*" style="color:Red" ControlToValidate="txtbndtype"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black">
+<p class="contact" style="font-weight:bold">
 <asp:Label ID="lblbndlevel" Text="Bundle Level" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtbndlevel" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
     ErrorMessage="*" style="color:Red" ControlToValidate="txtbndlevel"></asp:RequiredFieldValidator>
 <br /><br />
-<p class="contact" style="font-weight:bold;color:black">
+<p class="contact" style="font-weight:bold">
 <asp:Label ID="lbldesc" Text="Bundle Description" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtdesc" runat="server" Width="155" Height="35"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
     ErrorMessage="*" style="color:Red" ControlToValidate="txtdesc"></asp:RequiredFieldValidator>
 <br /><br />
 <br /><br />
-<p class="contact" style="font-weight:bold;color:black">
+<p class="contact" style="font-weight:bold">
     &nbsp;</p>
 
 <br /><br />
