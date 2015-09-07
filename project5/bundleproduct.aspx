@@ -17,28 +17,28 @@
 </div>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblbndtype" Text="Bundle Type" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtbndtype" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
     ErrorMessage="*" ControlToValidate="txtbndtype" style="color:Red"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblid" Text="Product Id" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtid" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
     ErrorMessage="*" ControlToValidate="txtid" style="color:Red"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblenddate" Text="End Date" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtenddate" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" 
     ErrorMessage="*" ControlToValidate="txtenddate" style="color:Red"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblbizconind" Text="Biz Con Ind" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtbizconind" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" 
@@ -47,14 +47,14 @@
 
 <br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
 <asp:Label ID="lblprtype" Text="Product Type" runat="server"></asp:Label><br /></p>
 <asp:TextBox ID="txtprtype" runat="server"></asp:TextBox>
 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" 
     ErrorMessage="*" ControlToValidate="txtprtype" style="color:Red"></asp:RequiredFieldValidator>
 <br /><br />
 
-<p class="contact" style="font-weight:bold;color:black" >
+<p class="contact" style="font-weight:bold" >
     <br /></p>
 <br /><br />
 <asp:Button class="buttom" ID="btnsubmit" Text="SUBMIT"  type="submit" 
