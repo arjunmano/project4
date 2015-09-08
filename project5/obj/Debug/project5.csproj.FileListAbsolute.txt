@@ -10,3 +10,10 @@ C:\Users\User\Desktop\project4\project5\bin\oracle.dataaccess.dll
 C:\Users\User\Desktop\project4\project5\obj\Debug\project5.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\project4\project5\obj\Debug\project5.dll
 C:\Users\User\Desktop\project4\project5\obj\Debug\project5.pdb
+C:\Users\User\Desktop\project4-master\project5\bin\project5.dll.config
+C:\Users\User\Desktop\project4-master\project5\bin\project5.dll
+C:\Users\User\Desktop\project4-master\project5\bin\project5.pdb
+C:\Users\User\Desktop\project4-master\project5\bin\oracle.dataaccess.dll
+C:\Users\User\Desktop\project4-master\project5\obj\Debug\project5.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\project4-master\project5\obj\Debug\project5.dll
+C:\Users\User\Desktop\project4-master\project5\obj\Debug\project5.pdb

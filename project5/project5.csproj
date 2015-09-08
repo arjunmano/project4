@@ -105,6 +105,7 @@
     <Content Include="images\gallery\15.jpg" />
     <Content Include="images\loading.gif" />
     <Content Include="images\logo.jpg" />
+    <Content Include="images\logo2.png" />
     <Content Include="images\nextlabel.gif" />
     <Content Include="images\prevlabel.gif" />
     <Content Include="images\slider\nemo.jpg" />
@@ -113,6 +114,7 @@
     <Content Include="images\slider\walle.jpg" />
     <Content Include="images\tag.png" />
     <Content Include="images\tooplate_body.jpg" />
+    <Content Include="images\tooplate_body3.jpg" />
     <Content Include="images\tooplate_body_1.jpg" />
     <Content Include="images\tooplate_body_2.jpg" />
     <Content Include="images\tooplate_image_01.jpg" />
